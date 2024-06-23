@@ -37,23 +37,29 @@ Unicode为世界上拥有文字最丰富的字体
 
 当然,你可以下载这款字体:
 
-[unicooe](https://github.com/17awa/SBRBTTF/releases/tag/%E5%AD%97%E4%BD%93)
+[unicooe](./fonts/unicooe.ttf)
 
 # 用法
 
 英文单词，中文语法。
 注意事项:当两个外形相似的字母结合时应使用'-'(‘‘遗符’’)连接。
 比如:
-
-L-Z
-I-W
-
+<html>
+<link rel="stylesheet" href="styles.css">
+<p class="custom-font">L-Z</p>
+<p class="custom-font">I-W</p>
+</html>
 当然，也可以用拼音写作
 <html>
-
-NI-HAO,WO-SHI-UNICOOE
-
+<link rel="stylesheet" href="styles.css">
+<p class="custom-font">NI-HAO,WO-SHI-UNICOOE</p>
+<html>
 那么,这时'-'(‘‘遗符’’)的用法就是连接拼音了
+
+
+
+>储存:github
+部署:vercel
 
 >by-SBNEWSPAPERS STUDIO
 SB日报工作室出品
